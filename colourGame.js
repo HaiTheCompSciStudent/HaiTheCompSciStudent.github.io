@@ -32,6 +32,7 @@ function startGame() {
     let squares = document.querySelectorAll(".square");
     let colorDisplay = document.getElementById("colorDisplay");
     let titleContainer = document.getElementById("titleContainer");
+    let menuBar = document.getElementById("menuBar");
     let button = document.getElementById("resetButton");
     let easyButton = document.getElementById("easyButton");
     let hardButton = document.getElementById("hardButton");
@@ -85,8 +86,7 @@ function startGame() {
                     button.style.color = pickedColor;
                     hardButton.style.color = pickedColor;
                     easyButton.style.color = pickedColor;
-
-                     
+                                         
                 } else {
                     squares[i].style.opacity = "0";
                     squares[i].removeEventListener("click", assignEvent());

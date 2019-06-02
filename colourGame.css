@@ -22,7 +22,7 @@ html{
     margin: 1.66%;
     transition: 0.3s;
     border-radius: 16px;
-    box-shadow: 2px 2px #888888;
+    box-shadow: 2px 2px rgb(200,233,236);
 }
 
 #container{
@@ -143,5 +143,4 @@ html{
     height : 100%;
     transition: 0.2s;
     font-family: 'Lato', sans-serif;
-    float : none;
 }
