@@ -37,6 +37,7 @@ function startGame() {
     let easyButton = document.getElementById("easyButton");
     let hardButton = document.getElementById("hardButton");
 
+    titleContainer.style.background = "steelblue";
     button.style.color = "steelblue";
     hardButton.style.color = "steelblue";
     easyButton.style.color = "steelblue";
