@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Color Game</title>
+    <link rel="stylesheet" href="colourGame.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="titleContainer">
+        <h1>The Great </br>
+            <span id="colorDisplay">RGB</span></br>
+            Color Game</h1>
+    </div>
+
+    <div id="menuBar">
+
+        <div id="buttonHolder">
+            <button id="resetButton" onclick="startGame()"><b>New Game</b></button>
+
+            <button id="easyButton" onclick="makeItNotHard()"><b>Easy</b></button>
+            <button id="hardButton" onclick="makeItHard()"><b>Hard</b></button>
+            
+        </div>
+
+    </div>
+
+    <div id="containerContainer">
+        <div id="container">
+
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="colourGame.js"></script>
+
+</body>
+
+</html>

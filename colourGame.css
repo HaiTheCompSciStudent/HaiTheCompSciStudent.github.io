@@ -1,0 +1,147 @@
+
+
+body {
+    background-color: rgb(240, 240, 240);
+    color: white;
+    text-align: center;
+    margin:0px;
+    padding: 0px;
+}
+
+html{
+    margin:0px;
+    padding:0px;
+}
+
+
+.square{
+    width:30%;
+    background:purple;
+    padding-top:30%;
+    float: left;
+    margin: 1.66%;
+    transition: 0.3s;
+    border-radius: 16px;
+    box-shadow: 2px 2px #888888;
+}
+
+#container{
+    margin: 0px auto;
+    max-width: 600px;
+    height: 400px;
+    
+}
+
+#containerContainer{
+    margin:0px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(240,240,240);
+}
+
+#titleContainer{
+    background-color: steelblue;
+    margin: 0px;
+    transition: 0.3s;
+    height: 180px;
+    padding: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+#colorDisplay{
+    text-transform: uppercase;
+}
+
+#menuBar{
+    width: 100%;
+    height: 64px;
+    background: white;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    box-shadow: 100px 100px #888888;
+}
+
+#resetButton{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height : 100%;
+    transition: 0.2s;
+    font-family: 'Lato', sans-serif;
+    float : left;
+
+}
+
+#resetButton:hover{
+    background-color : rgb(235,235,235);
+}
+
+#hardButton{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height : 100%;
+    transition: 0.2s;
+    font-family: 'Lato', sans-serif;
+    float : right;
+
+}
+
+#hardButton:hover{
+    background-color : rgb(235,235,235);
+}
+
+#buttonHolder{
+    width : 600px;
+    height : 100%;
+    background : white;
+    margin : 0, 1%;
+}
+#easyButton{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height : 100%;
+    transition: 0.2s;
+    font-family: 'Lato', sans-serif;
+    float : right;
+
+}
+
+#easyButton:hover{
+    background-color : rgb(235,235,235);
+}
+
+#messageDisplay{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height : 100%;
+    transition: 0.2s;
+    font-family: 'Lato', sans-serif;
+    float : none;
+}
